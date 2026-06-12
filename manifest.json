@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "animals",
+      "name": "Animals",
+      "symbol": "pawprint.fill",
+      "accent": "#45D6A3",
+      "cards": [
+        { "id": "lion", "title": "Lion", "image": "images/animals/lion.jpg" },
+        { "id": "tiger", "title": "Tiger", "image": "images/animals/tiger.jpg" },
+        { "id": "elephant", "title": "Elephant", "image": "images/animals/elephant.jpg" },
+        { "id": "giraffe", "title": "Giraffe", "image": "images/animals/giraffe.jpg" },
+        { "id": "zebra", "title": "Zebra", "image": "images/animals/zebra.jpg" },
+        { "id": "panda", "title": "Panda", "image": "images/animals/panda.jpg" },
+        { "id": "monkey", "title": "Monkey", "image": "images/animals/monkey.jpg" },
+        { "id": "rabbit", "title": "Rabbit", "image": "images/animals/rabbit.jpg" },
+        { "id": "koala", "title": "Koala", "image": "images/animals/koala.jpg" },
+        { "id": "kangaroo", "title": "Kangaroo", "image": "images/animals/kangaroo.jpg" },
+        { "id": "penguin", "title": "Penguin", "image": "images/animals/penguin.jpg" },
+        { "id": "dolphin", "title": "Dolphin", "image": "images/animals/dolphin.jpg" },
+        { "id": "whale", "title": "Whale", "image": "images/animals/whale.jpg" },
+        { "id": "horse", "title": "Horse", "image": "images/animals/horse.jpg" },
+        { "id": "dog", "title": "Dog", "image": "images/animals/dog.jpg" },
+        { "id": "cat", "title": "Cat", "image": "images/animals/cat.jpg" },
+        { "id": "fox", "title": "Fox", "image": "images/animals/fox.jpg" },
+        { "id": "bear", "title": "Bear", "image": "images/animals/bear.jpg" },
+        { "id": "owl", "title": "Owl", "image": "images/animals/owl.jpg" },
+        { "id": "eagle", "title": "Eagle", "image": "images/animals/eagle.jpg" },
+        { "id": "turtle", "title": "Turtle", "image": "images/animals/turtle.jpg" }
+      ]
+    },
+    {
+      "id": "cities-china",
+      "name": "Cities in China",
+      "symbol": "building.2.crop.circle.fill",
+      "accent": "#F25B3A",
+      "cards": [
+        { "id": "beijing", "title": "Beijing", "image": "images/cities-china/beijing.png" },
+        { "id": "shanghai", "title": "Shanghai", "image": "images/cities-china/shanghai.png" },
+        { "id": "xian", "title": "Xi'an", "image": "images/cities-china/xian.png" },
+        { "id": "chengdu", "title": "Chengdu", "image": "images/cities-china/chengdu.png" },
+        { "id": "guangzhou", "title": "Guangzhou", "image": "images/cities-china/guangzhou.png" },
+        { "id": "shenzhen", "title": "Shenzhen", "image": "images/cities-china/shenzhen.png" },
+        { "id": "hangzhou", "title": "Hangzhou", "image": "images/cities-china/hangzhou.png" },
+        { "id": "suzhou", "title": "Suzhou", "image": "images/cities-china/suzhou.png" },
+        { "id": "nanjing", "title": "Nanjing", "image": "images/cities-china/nanjing.png" },
+        { "id": "chongqing", "title": "Chongqing", "image": "images/cities-china/chongqing.png" },
+        { "id": "hong-kong", "title": "Hong Kong", "image": "images/cities-china/hong-kong.png" },
+        { "id": "lhasa", "title": "Lhasa", "image": "images/cities-china/lhasa.png" }
+      ]
+    },
+    {
+      "id": "cities-world",
+      "name": "World Cities",
+      "symbol": "globe.americas.fill",
+      "accent": "#57A7FF",
+      "cards": [
+        { "id": "new-york", "title": "New York", "image": "images/cities-world/new-york.png" },
+        { "id": "london", "title": "London", "image": "images/cities-world/london.png" },
+        { "id": "paris", "title": "Paris", "image": "images/cities-world/paris.png" },
+        { "id": "tokyo", "title": "Tokyo", "image": "images/cities-world/tokyo.png" },
+        { "id": "singapore", "title": "Singapore", "image": "images/cities-world/singapore.png" },
+        { "id": "sydney", "title": "Sydney", "image": "images/cities-world/sydney.png" },
+        { "id": "dubai", "title": "Dubai", "image": "images/cities-world/dubai.png" },
+        { "id": "cairo", "title": "Cairo", "image": "images/cities-world/cairo.png" },
+        { "id": "rio-de-janeiro", "title": "Rio de Janeiro", "image": "images/cities-world/rio-de-janeiro.png" },
+        { "id": "rome", "title": "Rome", "image": "images/cities-world/rome.png" },
+        { "id": "seoul", "title": "Seoul", "image": "images/cities-world/seoul.png" },
+        { "id": "bangkok", "title": "Bangkok", "image": "images/cities-world/bangkok.png" }
+      ]
+    },
+    {
+      "id": "places",
+      "name": "Places",
+      "symbol": "map.fill",
+      "accent": "#36D1D6",
+      "cards": [
+        { "id": "beach", "title": "Beach", "image": "images/places/beach.png" },
+        { "id": "museum", "title": "Museum", "image": "images/places/museum.png" },
+        { "id": "airport", "title": "Airport", "image": "images/places/airport.png" },
+        { "id": "library", "title": "Library", "image": "images/places/library.png" },
+        { "id": "mountain", "title": "Mountain", "image": "images/places/mountain.png" },
+        { "id": "restaurant", "title": "Restaurant", "image": "images/places/restaurant.png" },
+        { "id": "school", "title": "School", "image": "images/places/school.png" },
+        { "id": "hospital", "title": "Hospital", "image": "images/places/hospital.png" },
+        { "id": "train-station", "title": "Train Station", "image": "images/places/train-station.png" },
+        { "id": "amusement-park", "title": "Amusement Park", "image": "images/places/amusement-park.png" },
+        { "id": "market", "title": "Market", "image": "images/places/market.png" },
+        { "id": "stadium", "title": "Stadium", "image": "images/places/stadium.png" }
+      ]
+    }
+  ]
+}

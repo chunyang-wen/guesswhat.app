@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guess What Card Library</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #071014;
+        --panel: #102126;
+        --text: #f4fbf8;
+        --muted: #a9b9b4;
+        --accent: #45d6a3;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: ui-rounded, "SF Pro Rounded", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: radial-gradient(circle at top left, #183a35, var(--bg) 38rem);
+        color: var(--text);
+      }
+
+      main {
+        width: min(980px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 8vw, 5.5rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      p {
+        max-width: 760px;
+        color: var(--muted);
+        font-size: 1.1rem;
+        line-height: 1.65;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 28px 0 38px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 8px;
+        background: var(--accent);
+        color: #05110e;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .button.secondary {
+        background: rgba(255, 255, 255, 0.12);
+        color: var(--text);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 14px;
+      }
+
+      .card {
+        min-height: 140px;
+        padding: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 8px;
+        background: rgba(16, 33, 38, 0.78);
+      }
+
+      .card strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1.15rem;
+      }
+
+      code {
+        padding: 2px 6px;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Guess What Card Library</h1>
+      <p>
+        Static card resources for the Guess What iOS app. The app reads
+        <code>manifest.json</code>, downloads the referenced images, and caches
+        the current playable library for offline use.
+      </p>
+      <div class="actions">
+        <a class="button" href="manifest.json">Open Manifest</a>
+        <a class="button secondary" href="images/">Browse Images</a>
+      </div>
+      <section class="grid" aria-label="Included decks">
+        <div class="card"><strong>Animals</strong>21 image cards copied from the bundled app resources.</div>
+        <div class="card"><strong>Cities in China</strong>12 city cards with generated visual prompts.</div>
+        <div class="card"><strong>World Cities</strong>12 international city cards.</div>
+        <div class="card"><strong>Places</strong>12 common location cards for party play.</div>
+      </section>
+    </main>
+  </body>
+</html>
