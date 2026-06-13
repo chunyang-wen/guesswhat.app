@@ -89,6 +89,25 @@
         { "id": "market", "title": "Market", "image": "images/places/market.png" },
         { "id": "stadium", "title": "Stadium", "image": "images/places/stadium.png" }
       ]
+    },
+    {
+      "id": "ancient-animal",
+      "name": "古生物",
+      "symbol": "fossil.shell.fill",
+      "accent": "#B9824D",
+      "cards": [
+        { "id": "qi-xia", "title": "奇虾", "image": "images/ancient-animal/qi-xia.jpg" },
+        { "id": "fang-jiao-shi", "title": "方角石", "image": "images/ancient-animal/fang-jiao-shi.jpg" },
+        { "id": "cang-long", "title": "苍龙", "image": "images/ancient-animal/cang-long.jpg" },
+        { "id": "li-wei-tan-jing", "title": "力维坦鲸", "image": "images/ancient-animal/li-wei-tan-jing.jpg" },
+        { "id": "juan-chi-sha", "title": "卷尺鲨", "image": "images/ancient-animal/juan-chi-sha.jpg" },
+        { "id": "san-ye-chong", "title": "三叶虫", "image": "images/ancient-animal/san-ye-chong.jpg" },
+        { "id": "qian-xu-jing", "title": "千虚鲸", "image": "images/ancient-animal/qian-xu-jing.jpg" },
+        { "id": "feng-shen-yi-long", "title": "风神翼龙", "image": "images/ancient-animal/feng-shen-yi-long.jpg" },
+        { "id": "ba-wang-long", "title": "霸王龙", "image": "images/ancient-animal/ba-wang-long.jpg" },
+        { "id": "da-wang-suan-jiang-you", "title": "大王酸浆鱿", "image": "images/ancient-animal/da-wang-suan-jiang-you.jpg" },
+        { "id": "jian-chi-hu", "title": "剑齿虎", "image": "images/ancient-animal/jian-chi-hu.jpg" }
+      ]
     }
   ]
 }
